@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학교 급식 정보</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>학교 급식 정보</h1>
+        <div class="date-picker">
+            <input type="date" id="mealDate">
+            <button onclick="getMealInfo()">급식 정보 조회</button>
+        </div>
+        <div class="meal-info">
+            <h2 id="selectedDate"></h2>
+            <div id="mealContent" class="meal-content"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
